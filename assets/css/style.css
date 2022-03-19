@@ -1,0 +1,44 @@
+/* variables for site */
+:root {
+    --lavender: #E3D8F1;
+    --pink: #DABECA;
+    --rosy: #BF8B85;
+    --camel: #AD8A64;
+    --independence: #5D5F71;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    font-size: 10pc;
+    color: var(--rosy);
+    background-color: var(--pink);
+    padding-bottom: 16px;
+}
+
+section div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section div aside {
+    font-size: 3pc;
+    font-weight: 200;
+}
+
+section div article {
+    font-size: 2pc;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 24px
+}
