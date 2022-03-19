@@ -15,30 +15,45 @@ main {
     text-align: center;
 }
 
+/* My Portfolio - header */
 header {
     text-align: center;
     font-size: 10pc;
     color: var(--rosy);
     background-color: var(--pink);
     padding-bottom: 16px;
+    border: 2px solid var(--independence);
 }
 
+/* about me */
 section div:first-child {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    background-color: var(--lavender);
 }
 
+/* about me left-side */
 section div aside {
     font-size: 3pc;
     font-weight: 200;
+    border: 2px solid var(--independence);
 }
 
+/* about me answer */
 section div article {
     font-size: 2pc;
+    border: 2px solid var(--independence);
 }
 
+/* first project header */
 section h1 {
-    text-align: center;
-    font-size: 24px
+    display: inline-block;
+    font-size: 4pc;
+    width: 25pc;
+    border-bottom: 2px solid var(--independence);
+    
+}
+
+/* first project image */
+section div h2 {
+    background-color: aqua;
 }
