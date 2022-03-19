@@ -9,6 +9,7 @@
 
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
 }
 
 main {
@@ -25,23 +26,19 @@ header {
     border: 2px solid var(--independence);
 }
 
-/* about me */
-section div:first-child {
-    display: flex;
-    background-color: var(--lavender);
-}
-
 /* about me left-side */
-section div aside {
+aside {
     font-size: 3pc;
     font-weight: 200;
     border: 2px solid var(--independence);
 }
 
 /* about me answer */
-section div article {
+article {
     font-size: 2pc;
     border: 2px solid var(--independence);
+    display: flex;
+    background-color: var(--lavender);
 }
 
 /* first project header */
@@ -53,7 +50,23 @@ section h1 {
     
 }
 
-/* first project image */
-section div h2 {
-    background-color: aqua;
+@media screen and (max-width: 992px) {
+    main {
+        background-color: var(--independence);
+    }
+    header {
+        font-size: 4pc;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        background-color: aqua;
+    }
+    header {
+        font-size: 2pc;
+    }
+    img {
+        width: 25pc;
+    }
 }
