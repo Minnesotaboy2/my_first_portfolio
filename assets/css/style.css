@@ -50,6 +50,12 @@ section h1 {
     
 }
 
+/* small screen size coming soon image */
+h3 img {
+    display: none;
+}
+
+/* below 992px */
 @media screen and (max-width: 992px) {
     main {
         background-color: var(--independence);
@@ -59,14 +65,24 @@ section h1 {
     }
 }
 
+/* below 768px */
 @media screen and (max-width: 768px) {
     main {
         background-color: aqua;
     }
-    header {
+    header h1 {
         font-size: 2pc;
     }
-    img {
-        width: 25pc;
+    header {
+        font-size: 1pc;
+    }
+    h2 img {
+        display: none;
+    }
+    h3 img {
+        display: inline-block;
+        width: 12pc;
+        height: auto;
     }
 }
+
