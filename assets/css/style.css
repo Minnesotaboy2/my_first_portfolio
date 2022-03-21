@@ -44,8 +44,8 @@ article {
 /* first project header */
 section h1 {
     display: inline-block;
-    font-size: 4pc;
-    width: 25pc;
+    font-size: 3pc;
+    width: 17pc;
     border-bottom: 2px solid var(--independence);
     
 }
@@ -73,8 +73,8 @@ h3 img {
     header h1 {
         font-size: 2pc;
     }
-    header {
-        font-size: 1pc;
+    header aside {
+        font-size: 2pc;
     }
     h2 img {
         display: none;
