@@ -84,5 +84,9 @@ h3 img {
         width: 12pc;
         height: auto;
     }
+    section h1 {
+        font-size: 2pc;
+        width: 12pc;
+    }
 }
 
