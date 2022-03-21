@@ -54,6 +54,10 @@ section h1 {
 h3 img {
     display: none;
 }
+section div a {
+    width: 25pc;
+    height: auto;
+}
 
 /* below 992px */
 @media screen and (max-width: 992px) {
