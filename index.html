@@ -14,25 +14,41 @@
     <header>
         <h1>Andrew Martinek's Portfolio</h1>
         <aside>About Me</aside>
-        <article>
+        <article id="aboutMe">
             My name is Andrew Martinek, I Am 20 Years old and from Minnesota. I look forward to what skills I
             will
             learn and develop through this coding bootcamp. So far I've learned html, git, css, and we started
             to learn js.
         </article>
     </header>
-    
-<main>
-    <section>
-        <h1>First Project</h1>
-        <h2><img src="./assets/images/coming-soon-image.jpg" alt="coming soon"></h2>
-        <h3><img src="./assets/images/coming-soon2.jpg" alt="coming soon"></h3>
-        <div>
-            <a href="https://github.com/Minnesotaboy2?tab=repositories"><img src="./assets/images/github.png" alt="github"></a>
-            <h4>My Github repositories</h4>
-        </div>
-    </section>
-</main>
+
+    <main>
+        <section>
+
+            <h1>First Project</h1>
+            <h2><img src="./assets/images/coming-soon-image.jpg" alt="coming soon"></h2>
+            <h3><img src="./assets/images/coming-soon2.jpg" alt="coming soon"></h3>
+            <div>
+                <header id="sect2head">Get In Contact</header>
+                <article>
+                <div>
+                    <a class="gitRepo" href="https://github.com/Minnesotaboy2?tab=repositories">My Github
+                        repositories</a>
+                    <a class="gitRepo" href="https://github.com/Minnesotaboy2?tab=repositories"><img
+                            src="./assets/images/github.png" alt="github"></a>
+                </div>
+                    <form action="contact">
+                        <label for="Name">Name</label>
+                        <input type="text" id="Name" placeholder="First Last">
+                        <label for="email">email</label>
+                        <input type="email" id="email" placeholder="example@gmail.com">
+                        <Label for="phone#">Phone</Label>
+                        <input type="number" placeholder="123-456-7890">
+                    </form>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

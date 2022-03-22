@@ -22,7 +22,6 @@ header {
     font-size: 10pc;
     color: var(--rosy);
     background-color: var(--pink);
-    padding-bottom: 16px;
     border: 2px solid var(--independence);
 }
 
@@ -38,25 +37,49 @@ article {
     font-size: 2pc;
     border: 2px solid var(--independence);
     display: flex;
-    background-color: var(--lavender);
 }
 
+main {
+    background-color: var(--lavender);
+}
 /* first project header */
 section h1 {
     display: inline-block;
     font-size: 3pc;
     width: 17pc;
-    border-bottom: 2px solid var(--independence);
-    
+    border-bottom: 2px solid var(--independence);    
 }
 
 /* small screen size coming soon image */
 h3 img {
     display: none;
 }
-section div a {
-    width: 25pc;
-    height: auto;
+
+/* github link + img */
+section div img {
+    width: 10pc;
+} 
+
+#sect2head {
+    font-size: 2pc;
+}
+
+main article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.gitRepo {
+    display: flex;
+    font-size: 1pc;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 10pc;
 }
 
 /* below 992px */
@@ -72,10 +95,13 @@ section div a {
 /* below 768px */
 @media screen and (max-width: 768px) {
     main {
-        background-color: aqua;
+        background-color: var(--lavender);
     }
     header h1 {
         font-size: 2pc;
+    }
+    #aboutMe {
+        font-size: 1pc;
     }
     header aside {
         font-size: 2pc;
@@ -91,6 +117,9 @@ section div a {
     section h1 {
         font-size: 2pc;
         width: 12pc;
+    }
+    main article {
+        display:grid;
     }
 }
 
