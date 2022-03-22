@@ -20,7 +20,7 @@ main {
 header {
     text-align: center;
     font-size: 10pc;
-    color: var(--rosy);
+    color: var(--independence);
     background-color: var(--pink);
     border: 2px solid var(--independence);
 }
