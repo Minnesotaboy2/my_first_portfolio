@@ -12,8 +12,8 @@
     box-sizing: border-box;
 }
 
-main {
-    text-align: center;
+h1 {
+    font-size: 30px;
 }
 
 /* My Portfolio - header */
@@ -25,14 +25,14 @@ header {
     font-size: 4pc;
 }
 
-/* about me left-side */
+/* about me */
 aside {
     font-size: 3pc;
     font-weight: 200;
     border: 2px solid var(--independence);
 }
 
-/* about me answer */
+/* about me  */
 article {
     font-size: 2pc;
     border: 2px solid var(--independence);
@@ -41,24 +41,40 @@ article {
 
 main {
     background-color: var(--lavender);
+    text-align: center;
 }
+
+#work {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
 /* first project header */
 .LAP {
     display: inline-block;
     font-size: 3pc;
     width: 17pc;
-    border-bottom: 2px solid var(--independence);    
+    border-bottom: 2px solid var(--independence);
 }
 
 /* project img */
 section div img {
     width: 20pc;
-} 
+}
 
 .homework {
     margin: 15px;
     text-align: center;
-    font-size: 2pc;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hw {
+    display: flex;
+    flex-direction: column;
 }
 
 .hw-pics {
@@ -66,6 +82,11 @@ section div img {
     margin-right: 10px;
     margin-left: 10px;
     width: 17pc;
+}
+
+#technologies {
+    border: 2px solid black;
+    background-color: var(--camel);    
 }
 
 #sect2head {
@@ -78,16 +99,21 @@ main article {
     justify-content: space-around;
 }
 
-.git-repo {
+.contact {
     display: flex;
-    font-size: 1.5pc;
-    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 24px;
 }
 
-form {
+#linkedin {
     display: flex;
     flex-direction: column;
-    width: 10pc;
+    margin-right: 2pc;
+}
+
+#github {
+    display: flex;
+    flex-direction: column;
 }
 
 /* below 992px */
@@ -95,6 +121,7 @@ form {
     main {
         background-color: var(--independence);
     }
+
     header {
         font-size: 4pc;
     }
@@ -105,20 +132,25 @@ form {
     main {
         background-color: var(--lavender);
     }
+
     header h1 {
         font-size: 2pc;
     }
+
     #aboutMe {
         font-size: 1pc;
     }
+
     header aside {
         font-size: 2pc;
     }
+
     section h1 {
         font-size: 2pc;
-        width: 12pc;
     }
-    .git-repo {
-width: 10pc;
-}
+
+    .contact {
+        width: 10pc;
+        justify-content: space-evenly;
+    }
 }
