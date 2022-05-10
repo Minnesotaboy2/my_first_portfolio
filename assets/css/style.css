@@ -1,72 +1,64 @@
 /* variables for site */
 :root {
-    --lavender: #E3D8F1;
-    --pink: #DABECA;
-    --rosy: #BF8B85;
-    --camel: #AD8A64;
-    --independence: #5D5F71;
+    --navy-blue: #30638e;
+    --dark-grey: #253237;
+    --off-white-beige: #f8f4e3;
 }
 
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
-}
+    color: var(--off-white-beige);
+    text-align: center;
+    background-color: var(--dark-grey);
 
-h1 {
-    font-size: 30px;
 }
 
 /* My Portfolio - header */
 header {
-    text-align: center;
-    color: var(--independence);
-    background-color: var(--pink);
-    border: 2px solid var(--independence);
-    font-size: 4pc;
+    font-size: 100px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+#about-me {
+    border: 5px solid var(--navy-blue);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 35px;
 }
 
 /* about me */
 aside {
-    font-size: 3pc;
-    font-weight: 200;
-    border: 2px solid var(--independence);
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
-/* about me  */
+/* about me content */
 article {
-    font-size: 2pc;
-    border: 2px solid var(--independence);
-    display: flex;
-}
-
-main {
-    background-color: var(--lavender);
-    text-align: center;
+    font-size: 30px;
 }
 
 #work {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 20px;
-    text-decoration: underline;
 }
 
 /* first project header */
-.LAP {
-    display: inline-block;
-    font-size: 3pc;
-    width: 17pc;
-    border-bottom: 2px solid var(--independence);
+#LAP {
+    font-size: 36px;
 }
-
-/* project img */
-section div img {
-    width: 20pc;
+#my-assignments {
+    margin-top: 35px;
+    font-size: 36px;
 }
 
 .homework {
     margin: 15px;
-    text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -79,45 +71,56 @@ section div img {
 
 .hw-pics {
     height: 14pc;
-    margin-right: 10px;
-    margin-left: 10px;
     width: 17pc;
 }
 
 #technologies {
-    border: 2px solid black;
-    background-color: var(--camel);    
+    border: 5px solid var(--navy-blue);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
-#sect2head {
-    font-size: 2pc;
+#tech-h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
 }
 
-main article {
+#get-in-contact-header {
+    font-size: 70px;
+}
+
+#contact-article {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contact {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+#pfp {
+    width: 13pc;
+    border-radius: 100px;
+}
+
 .contact {
     display: flex;
-    flex-wrap: wrap;
-    font-size: 24px;
-}
-
-#linkedin {
-    display: flex;
-    flex-direction: column;
-    margin-right: 2pc;
-}
-
-#github {
-    display: flex;
     flex-direction: column;
 }
 
-/* below 992px */
-@media screen and (max-width: 992px) {
+
+
+/* below 993px */
+/* @media screen and (max-width: 992px) {
     main {
         background-color: var(--independence);
     }
@@ -125,11 +128,19 @@ main article {
     header {
         font-size: 4pc;
     }
-}
+} */
 
 /* below 768px */
 @media screen and (max-width: 768px) {
-    main {
+    header {
+        font-size: 50px;
+    }
+
+    aside {
+        font-size: 40px;
+    }
+
+    /* main {
         background-color: var(--lavender);
     }
 
@@ -152,5 +163,5 @@ main article {
     .contact {
         width: 10pc;
         justify-content: space-evenly;
-    }
-}
+    } */
+} 
