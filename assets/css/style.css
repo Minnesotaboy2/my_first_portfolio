@@ -13,121 +13,69 @@
     background-color: var(--dark-grey);
 }
 
-/* My Portfolio - header */
 header {
     font-size: 100px;
     margin-top: 25px;
     margin-bottom: 45px;
 }
 
-#about-me {
+h1 {
+    font-size: 50px;
+    margin: 20px 0px;
+}
+
+img {
+    width: 30pc;
+    height: 25pc;
+    margin: 10px 50px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+.card {
     border: 5px solid var(--navy-blue);
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 25px;
     margin-left: 10px;
     margin-right: 10px;
     padding-bottom: 35px;
 }
 
-/* about me */
-aside {
-    font-size: 48px;
-    margin-top: 30px;
-    margin-bottom: 15px;
+.space-around {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around; 
 }
 
-/* about me content */
-article {
-    font-size: 30px;
-}
-
-#work {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-/* first project header */
-#LAP {
-    font-size: 36px;
-}
-#my-assignments {
-    margin-top: 35px;
-    font-size: 36px;
-}
-
-.homework {
-    margin: 15px;
-    font-size: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.hw {
+.column {
     display: flex;
     flex-direction: column;
 }
 
-.hw-pics {
-    height: 14pc;
-    width: 17pc;
-}
-
-#technologies {
-    border: 5px solid var(--navy-blue);
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 30px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
-
-#tech-h1 {
-    font-size: 36px;
-    padding-bottom: 20px;
-}
-
-#get-in-contact-header {
-    font-size: 70px;
-}
-
-#contact-article {
-    font-size: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+#some-work {
+    font-size: 60px;
 }
 
 #pfp {
-    width: 13pc;
     border-radius: 100px;
 }
 
-.contact {
-    display: flex;
-    flex-direction: column;
+/* passsword-gen button */
+.pass-btn {
+    background-color: red;
+    border-radius: 25px;
+    border: none;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
 }
-
-
-
-/* below 993px */
-/* @media screen and (max-width: 992px) {
-    main {
-        background-color: var(--independence);
-    }
-
-    header {
-        font-size: 4pc;
-    }
-} */
 
 /* below 768px */
 @media screen and (max-width: 768px) {
@@ -135,32 +83,12 @@ article {
         font-size: 50px;
     }
 
-    aside {
-        font-size: 40px;
+    h2 {
+        font-size: 36px;
     }
-
-    /* main {
-        background-color: var(--lavender);
+    
+    img {
+        width: 17pc;
+        height: 14PC;
     }
-
-    header h1 {
-        font-size: 2pc;
-    }
-
-    #aboutMe {
-        font-size: 1pc;
-    }
-
-    header aside {
-        font-size: 2pc;
-    }
-
-    section h1 {
-        font-size: 2pc;
-    }
-
-    .contact {
-        width: 10pc;
-        justify-content: space-evenly;
-    } */
-} 
+}
