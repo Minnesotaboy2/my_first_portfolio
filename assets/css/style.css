@@ -79,6 +79,14 @@ h2 {
     padding: 14px 34px;
 }
 
+#copy-btn {
+    visibility: hidden;
+}
+
+#password-copy {
+    visibility: hidden;
+}
+
 /* below 768px */
 @media screen and (max-width: 768px) {
     header {
