@@ -1,4 +1,2 @@
-pages describing assignments and projects before taking to projects -new html files
-linkedin resume and certification tests -linkedin
-coming soon pages
-404
+pages describing assignments and projects with the app - css some of them to try to fit them in with the theme
+css classes so I dont need a bunch of css files and more can be in one place

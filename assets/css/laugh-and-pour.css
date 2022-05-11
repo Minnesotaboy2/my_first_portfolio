@@ -1,0 +1,65 @@
+/* variables for site */
+:root {
+    --navy-blue: #30638e;
+    --dark-grey: #253237;
+    --off-white-beige: #f8f4e3;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    color: var(--off-white-beige);
+    text-align: center;
+    background-color: var(--dark-grey);
+    font-size: 28px;
+}
+
+main div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#gen-alcohol {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    width: 30pc;
+}
+
+#about-LAP {
+    border: 5px solid var(--navy-blue);
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+}
+
+#cocktail-gen {
+    flex-direction: column;
+    margin: 10px;
+    max-width: 40pc;
+    border: 5px solid var(--navy-blue);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#joke-gen {
+    flex-direction: column;
+    margin: 10px;
+    max-width: 40pc;
+    border: 5px solid var(--navy-blue);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#contributors {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 20pc;
+    }
+}

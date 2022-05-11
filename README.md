@@ -9,3 +9,11 @@ live site: https://minnesotaboy2.github.io/my_first_portfolio/
 ![pageScrnSht](./assets/images/webScrnShot.png)
 
 Github Repository: https://github.com/Minnesotaboy2/my_first_portfolio
+
+## Laugh and Pour page
+A brief description of Laugh and Pour and describing how it works, with links to the project's page.
+![pageScrnSht](./assets/images/laugh-and-pour.png)
+
+## Password Generator Page
+I ended up putting the entire password generator into this page on my portfolio since its small enough to not cause performance issues
+![pageScrnSht](./assets/images/passwordgen1.png)
