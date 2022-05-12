@@ -50,6 +50,8 @@ iframe {
     margin-left: 10px;
     margin-right: 10px;
     padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .space-around {
@@ -65,6 +67,12 @@ iframe {
 
 #some-work {
     font-size: 60px;
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #pfp {
@@ -90,6 +98,14 @@ iframe {
 
 #password-copy {
     visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        max-width: 100pc;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* below 768px */
