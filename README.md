@@ -29,3 +29,7 @@ Page contains a brief description of the assignment and contains a link to the p
 ## README Generator 
 Page contains a brief description of the application as well as an embeded video demonstrating usage.
 ![PageScrnSht](./assets/images/readmegen1.png)
+
+ ## Weather Dashboard
+ Page contains a brief description of the application and future plans for improvement
+ ![PageScrnSht](./assets/images/Weather-dash1.png)
