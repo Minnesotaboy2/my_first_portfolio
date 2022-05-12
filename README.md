@@ -25,3 +25,7 @@ Page contains description of the code-quiz assignment and contains a link to the
 ## Work-Day-Scheduler
 Page contains a brief description of the assignment and contains a link to the page and repository.
 ![PageScrnSht](./assets/images/workdayscheduler1.png)
+
+## README Generator 
+Page contains a brief description of the application as well as an embeded video demonstrating usage.
+![PageScrnSht](./assets/images/readmegen1.png)

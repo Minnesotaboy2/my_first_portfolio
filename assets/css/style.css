@@ -38,6 +38,11 @@ h2 {
     font-size: 40px;
 }
 
+iframe {
+    width: 50pc;
+    height: 28pc;
+}
+
 .card {
     border: 5px solid var(--navy-blue);
     border-radius: 20px;
@@ -48,9 +53,9 @@ h2 {
 }
 
 .space-around {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .column {
@@ -96,9 +101,14 @@ h2 {
     h2 {
         font-size: 36px;
     }
-    
+
     img {
         width: 17pc;
         height: 14PC;
+    }
+
+    iframe {
+        width: 15pc;
+        height: 9pc;
     }
 }
